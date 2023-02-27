@@ -1,0 +1,16 @@
+.alert {
+  background: #f2d8b6;
+  color: #336065;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  line-height: 22px;
+  max-width: 738px;
+  width: 100%;
+  gap: 10px;
+  padding: 10px 15px;
+}

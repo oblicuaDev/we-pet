@@ -1,0 +1,17 @@
+.splide__pagination__page {
+  background: #f2d8b6 !important;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin: 7px;
+  &:hover {
+    background: #fb883f !important;
+  }
+}
+.splide__pagination__page.is-active {
+  background: #fb883f !important;
+  opacity: 1 !important;
+}
+.splide__pagination {
+  bottom: -30px !important;
+}

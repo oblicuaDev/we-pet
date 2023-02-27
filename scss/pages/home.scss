@@ -1,0 +1,129 @@
+.home {
+  main {
+    padding: 0 40px 50px;
+    @media only screen and (max-width: 768px) {
+      padding: 50px 20px;
+    }
+  }
+}
+
+.shepherd-has-title .shepherd-content .shepherd-header {
+  background: #336065 !important;
+  border-radius: 0 !important;
+  padding: 1em !important;
+  display: flex !important;
+  flex-direction: row !important;
+  h3 {
+    color: #fff !important;
+    font-size: 1.7rem !important;
+    font-weight: bold !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .shepherd.tippy-popper {
+    display: none;
+  }
+}
+.shepherd-text {
+  color: rgba(0, 0, 0, 0.75) !important;
+  font-size: 1.4rem !important;
+  line-height: 2.2rem !important;
+  padding: 10px !important;
+}
+
+.shepherd-button.shepherd-button-secondary,
+.shepherd-button {
+  font-size: 1.4rem !important;
+}
+.shepherd-button {
+  background: #309da3 !important;
+  border-radius: 10px;
+  color: #fff !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 20px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+.shepherd-arrow:before {
+  background: #e5e4eb !important;
+}
+.shepherd-element {
+  background: #e5e4eb !important;
+}
+
+body::after {
+  opacity: 0;
+}
+
+body.shepherd-active::after {
+  content: "";
+  display: block;
+  background-color: #000;
+  opacity: 0.4;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.shepherd-element.shepherd-open,
+.shepherd-target.shepherd-enabled {
+  position: relative;
+}
+
+.shepherd-element.shepherd-open,
+.shepherd-target.shepherd-enabled {
+  position: relative;
+  z-index: 20;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.shepherd-has-title .shepherd-content .shepherd-cancel-icon {
+  color: rgb(255 255 255 / 75%);
+}
+
+.box.method {
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .flex {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button, a {
+      width: 100px;
+      transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      &:hover {
+        opacity: 0.5;
+      }
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+.fancybox__thumbs {
+  display: none;
+}
+.shepherd-footer {
+  background: transparent;
+}

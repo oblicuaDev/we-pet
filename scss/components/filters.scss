@@ -1,0 +1,56 @@
+.filters-provider {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 530px;
+  .custom-select {
+    margin: 0;
+    border-radius: 10px;
+    .select-selected {
+      background-color: #309da3;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      letter-spacing: -0.02em;
+      text-transform: capitalize;
+      color: #fff;
+      border-radius: 10px;
+      padding: 8px 35px 8px 12px;
+      &:after {
+        border-color: #fff transparent transparent transparent;
+      }
+    }
+  }
+  #uselocation {
+    background: #fefefe;
+    border-radius: 10px;
+    border: 1px solid #309da3;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #309da3;
+    transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    svg {
+      margin-right: 8px;
+    }
+    &:hover,
+    &.active {
+      background-color: #309da3;
+      color: #fff;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+}

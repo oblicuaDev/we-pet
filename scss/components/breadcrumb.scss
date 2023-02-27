@@ -1,0 +1,35 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    &::after {
+      content: "/";
+      margin: 0 5px;
+    }
+    &:last-of-type {
+      a {
+        color: #309da3;
+        font-weight: bold;
+      }
+    }
+    &:first-of-type,
+    &:last-of-type {
+      &::after {
+        content: none;
+      }
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

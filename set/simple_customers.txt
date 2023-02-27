@@ -1,0 +1,87 @@
+Array
+(
+    [0] => Array
+        (
+            [franchise] => mastercard
+            [mask] => 547130******6922
+            [customer_id] => 0940d21bb6bd3514f4088fd
+        )
+
+    [1] => Array
+        (
+            [franchise] => mastercard
+            [mask] => 547130******6922
+            [customer_id] => 0941de6f5203342f61928f7
+        )
+
+    [2] => Array
+        (
+            [franchise] => mastercard
+            [mask] => 530691******8740
+            [customer_id] => 18adac3ce24c607bc126394
+        )
+
+    [3] => Array
+        (
+            [franchise] => visa
+            [mask] => 409984******3176
+            [customer_id] => 18d466d87510675ce50ea35
+        )
+
+    [4] => Array
+        (
+            [franchise] => mastercard
+            [mask] => 530371******6294
+            [customer_id] => 18d7b5582c05179f75e17c3
+        )
+
+    [5] => Array
+        (
+            [franchise] => visa
+            [mask] => 409984******3176
+            [customer_id] => 18d7e580102a50c325a8aeb
+        )
+
+    [6] => Array
+        (
+            [franchise] => mastercard
+            [mask] => 555825******7483
+            [customer_id] => 1bf404769bcdc7cee58ccf2
+        )
+
+    [7] => Array
+        (
+            [franchise] => visa
+            [mask] => 422274******5495
+            [customer_id] => 1e3046dc3427d238f781082
+        )
+
+    [8] => Array
+        (
+            [franchise] => visa
+            [mask] => 459356******3932
+            [customer_id] => 1fac69f7b5de2429316aa23
+        )
+
+    [9] => Array
+        (
+            [franchise] => mastercard
+            [mask] => 530691******8906
+            [customer_id] => 205229a471bd8229b04bb63
+        )
+
+    [10] => Array
+        (
+            [franchise] => mastercard
+            [mask] => 530371******6294
+            [customer_id] => 232831a98856126cd3e44c2
+        )
+
+    [11] => Array
+        (
+            [franchise] => visa
+            [mask] => 409984******3176
+            [customer_id] => 251b454c76ee24db053ed72
+        )
+
+)

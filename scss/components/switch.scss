@@ -1,0 +1,41 @@
+.switch {
+  position: relative;
+  display: block;
+  width: 72px;
+  height: 39px;
+  .slider {
+    background-color: #e5e4eb;
+    bottom: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.5s;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      transition: 0.5s;
+      background-color: #b2b2b2;
+      transform: translateX(3px);
+    }
+  }
+  input:checked + .slider {
+    background-color: #309da3;
+    &::before {
+      transform: translateX(40px);
+      background: #336065;
+    }
+  }
+  .slider.round {
+    border-radius: 35px;
+    height: 100%;
+    &::before {
+      width: 29px;
+      height: 29px;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <meta name="theme-color" content="#FB883F" />
+    <meta name="twitter:card" value="summary" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="WePet" />
+    <meta property="og:url" content=" " />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="Acercando mascotas y familias" />
+    <meta name="google-signin-scope" content="profile email" />
+    <meta
+      name="google-signin-client_id"
+      content="YOUR_CLIENT_ID.apps.googleusercontent.com"
+    />
+    <title>WePet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+    <link rel="stylesheet" href="css/splide.min.css" />
+    <link rel="stylesheet" href="css/splide-core.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="canonical" href="" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta name="description" content="Acercando mascotas y familias" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="filters-provider">
+        <div class="custom-select">
+          <select name="department" id="department">
+            <option value="">Localidad</option>
+          </select>
+        </div>
+        <div class="custom-select">
+          <select name="city" id="city">
+            <option value="">Ciudad</option>
+          </select>
+        </div>
+        <button id="uselocation" onclick="geoFindMe()" type="button">
+          <svg
+            width="27"
+            height="27"
+            viewBox="0 0 27 27"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.5 18C14.6935 18 15.8381 17.5259 16.682 16.682C17.5259 15.8381 18 14.6935 18 13.5C18 12.3065 17.5259 11.1619 16.682 10.318C15.8381 9.47411 14.6935 9 13.5 9C12.3065 9 11.1619 9.47411 10.318 10.318C9.47411 11.1619 9 12.3065 9 13.5C9 14.6935 9.47411 15.8381 10.318 16.682C11.1619 17.5259 12.3065 18 13.5 18ZM12.375 4.5675V1.125C12.375 0.826631 12.4935 0.540483 12.7045 0.329505C12.9155 0.118526 13.2016 0 13.5 0C13.7984 0 14.0845 0.118526 14.2955 0.329505C14.5065 0.540483 14.625 0.826631 14.625 1.125V4.5675C16.608 4.81802 18.4513 5.72121 19.8645 7.13477C21.2776 8.54833 22.1803 10.3919 22.4303 12.375H25.875C26.1734 12.375 26.4595 12.4935 26.6705 12.7045C26.8815 12.9155 27 13.2016 27 13.5C27 13.7984 26.8815 14.0845 26.6705 14.2955C26.4595 14.5065 26.1734 14.625 25.875 14.625H22.4303C22.1802 16.6084 21.2772 18.4523 19.8636 19.8659C18.45 21.2795 16.6062 22.1824 14.6228 22.4325L14.625 22.5V25.875C14.625 26.1734 14.5065 26.4595 14.2955 26.6705C14.0845 26.8815 13.7984 27 13.5 27C13.2016 27 12.9155 26.8815 12.7045 26.6705C12.4935 26.4595 12.375 26.1734 12.375 25.875V22.5V22.4325C10.3916 22.1824 8.54774 21.2795 7.13414 19.8659C5.72054 18.4523 4.81755 16.6084 4.5675 14.625C4.545 14.6257 4.52249 14.6257 4.5 14.625H1.125C0.826631 14.625 0.540483 14.5065 0.329505 14.2955C0.118526 14.0845 0 13.7984 0 13.5C0 13.2016 0.118526 12.9155 0.329505 12.7045C0.540483 12.4935 0.826631 12.375 1.125 12.375H4.5C4.52249 12.3743 4.545 12.3743 4.5675 12.375C4.81848 10.3924 5.72188 8.54958 7.1354 7.13688C8.54892 5.72417 10.3922 4.82184 12.375 4.572V4.5675ZM6.75 13.5C6.75 15.2902 7.46116 17.0071 8.72703 18.273C9.9929 19.5388 11.7098 20.25 13.5 20.25C15.2902 20.25 17.0071 19.5388 18.273 18.273C19.5388 17.0071 20.25 15.2902 20.25 13.5C20.25 11.7098 19.5388 9.9929 18.273 8.72703C17.0071 7.46116 15.2902 6.75 13.5 6.75C11.7098 6.75 9.9929 7.46116 8.72703 8.72703C7.46116 9.9929 6.75 11.7098 6.75 13.5Z"
+              fill="#309DA3"
+            />
+          </svg>
+          Usar mi ubicación
+        </button>
+      </form>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/additional-methods.min.js"></script>
+    <script src="js/splide.min.js"></script>
+    <script src="js/lottie.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/shepherd.js@5.0.1/dist/js/shepherd.js"></script>
+    <!-- at the end of BODY -->
+    <!-- CSS is included via this JavaScript file -->
+    <script src="js/card.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      createCustomSelect();
+    </script>
+  </body>
+</html>

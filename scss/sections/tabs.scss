@@ -1,0 +1,62 @@
+.tabs {
+  margin: 0 auto;
+  font-size: 0;
+  min-height: 50vw;
+  flex: 1;
+  width: 100%;
+  grid-column: 2 span;
+}
+
+.tabs > input[type="radio"] {
+  display: none;
+}
+
+.tabs > div {
+  display: none;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3 {
+  display: block;
+}
+
+.tabs-header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  label {
+    color: rgba(178, 178, 178, 1);
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--font-secondary);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 53px;
+    padding: 2px 30px 2px 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 1px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+    user-select: none;
+    vertical-align: middle;
+    &.active {
+      color: #336065;
+    }
+  }
+}
+
+.tabs > label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabs > input[type="radio"]:checked + label {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+}

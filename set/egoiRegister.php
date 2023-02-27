@@ -1,0 +1,56 @@
+<?php
+include '../includes/config.php';
+$res = $wp->editRegisterEgoi($_GET["user_id"]);
+echo "<h3>id</h3>";
+echo "<h3>".$res->id."</h3>";
+echo "<br/>";
+echo "<h3>name ".$res->lastname."</h3>";
+echo "<h3>".$res->name." ".$res->lastname."</h3>";
+echo "<br/>";
+echo "<h3>email</h3>";
+echo "<h3>".$res->email."</h3>";
+echo "<br/>";
+echo "<h3>address</h3>";
+echo "<h3>".$res->address."</h3>";
+echo "<br/>";
+echo "<h3>phone</h3>";
+echo "<h3>".$res->phone."</h3>";
+echo "<br/>";
+echo "<h3>Departamento</h3>";
+echo "<h3>".$res->departamento."</h3>";
+echo "<br/>";
+echo "<h3>city</h3>";
+echo "<h3>".$res->city."</h3>";
+echo "<br/>";
+echo "<h3>birthday</h3>";
+echo "<h3>".$res->birthday."</h3>";
+echo "<br/>";
+echo "<h3>doc_num</h3>";
+echo "<h3>".$res->doc_num."</h3>";
+echo "<br/>";
+for ($i=0; $i < count($res->pets); $i++) { 
+    echo "<h2>Mascota ".$i."</h2>";
+    echo "<br/>";
+    echo "<h3>photo</h3>";
+    echo '<img src="'.$res->pets[$i]->image[0]->formats->thumbnail->url.'" alt="'.$res->pets[$i]->image[0]->formats->thumbnail->url.'">';
+    echo "<br/>";
+    echo "<h3>name</h3>";
+    echo "<h3>".$res->pets[$i]->name."</h3>";
+    echo "<br/>";
+    echo "<h3>breed</h3>";
+    echo "<h3>".$res->pets[$i]->breed."</h3>";
+    echo "<br/>";
+    echo "<h3>age</h3>";
+    echo "<h3>".$res->pets[$i]->age."</h3>";
+    echo "<br/>";
+    echo "<h3>sub_end</h3>";
+    echo "<h3>".$res->pets[$i]->sub_end."</h3>";
+    echo "<br/>";
+    echo "<h3>proxima vacuna due_date</h3>";
+    echo "<h3>".$res->pets[$i]->vaccines[count($res->pets[$i]->vaccines) - 1]->due_date."</h3>";
+    echo "<br/>";
+    echo "<h3>proxima desparasitacion due_date</h3>";
+    echo "<h3>".$res->pets[$i]->dewormings[count($res->pets[$i]->dewormings) - 1]->next_application."</h3>";
+    echo "<br/>";
+}
+

@@ -1,0 +1,2940 @@
+Array
+(
+    [0] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 0940d21bb6bd3514f4088fd
+                    [name] => JESSICA BARRIOS
+                    [created] => 05/06/2021
+                    [doc_type] => CC
+                    [doc_number] => 1067865406
+                    [email] => JESSICABG33@HOTMAIL.COM
+                    [phone] => 3013686453
+                    [address] => CALLE 25B No. 72-80 T15 APTO 408 TARRAGONA DEL SALITRE 1
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 0940d207c8f6d27b419d5a3
+                                    [franchise] => mastercard
+                                    [mask] => 547130******6922
+                                    [created] => 06/05/2021
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [1] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 0941de6f5203342f61928f7
+                    [name] => JESSICA BARRIOS
+                    [created] => 05/06/2021
+                    [doc_type] => CC
+                    [doc_number] => 1067865406
+                    [email] => jessicabg33@hotmail.com
+                    [phone] => 3013686453
+                    [address] => CALLE 25 B NO 72 80
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 0941de595740f18762ba7d3
+                                    [franchise] => mastercard
+                                    [mask] => 547130******6922
+                                    [created] => 06/05/2021
+                                    [default] => 1
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [token] => 0941de595740f18762ba7d3
+                                    [franchise] => mastercard
+                                    [mask] => 547130******6922
+                                    [created] => 06/05/2021
+                                    [default] => 
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [token] => 1fb194b69d67961286e1ef6
+                                    [franchise] => mastercard
+                                    [mask] => 524708******9859
+                                    [created] => 02/02/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [2] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 18adac3ce24c607bc126394
+                    [name] => Nestor Goyes
+                    [created] => 11/09/2021
+                    [doc_type] => CC
+                    [doc_number] => 1020751420
+                    [email] => nestorgoyes@gmail.com
+                    [phone] => 3192274281
+                    [address] => Cr 4 # 55 36
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 24f1375569e6f2fde3b0456
+                                    [franchise] => mastercard
+                                    [mask] => 530691******8740
+                                    [created] => 07/04/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [3] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 18d466d87510675ce50ea35
+                    [name] => Julian
+                    [created] => 11/11/2021
+                    [doc_type] => CC
+                    [doc_number] => 1018477801
+                    [email] => dreinovcorp@gmail.com
+                    [phone] => 3203712824
+                    [address] => Calle 63 C # 22-30
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 1
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 1
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 1
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 1
+                                )
+
+                            [15] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [16] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [17] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [18] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [19] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [20] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [21] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [22] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [23] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [24] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [25] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [26] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [27] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [28] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [29] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [30] => stdClass Object
+                                (
+                                    [token] => 20d4bf2e4f9f526b4081ff6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 1
+                                )
+
+                            [31] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [32] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [33] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [34] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [35] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [36] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [37] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [38] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [39] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [40] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [41] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [42] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [43] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [44] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [45] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [46] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [47] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [48] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [49] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [50] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [51] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [52] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [53] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [54] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [55] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [56] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [57] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [58] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [59] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [60] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [61] => stdClass Object
+                                (
+                                    [token] => 20d4bf2e4f9f526b4081ff6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [62] => stdClass Object
+                                (
+                                    [token] => 20d600dceacb234fc5cf2f6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 1
+                                )
+
+                            [63] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [64] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [65] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [66] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [67] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [68] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [69] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [70] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [71] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [72] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [73] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [74] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [75] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [76] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [77] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [78] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [79] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [80] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [81] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [82] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [83] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [84] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [85] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [86] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [87] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [88] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [89] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [90] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [91] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [92] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [93] => stdClass Object
+                                (
+                                    [token] => 20d4bf2e4f9f526b4081ff6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [94] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [95] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [96] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [97] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [98] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [99] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [100] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [101] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [102] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [103] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [104] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [105] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [106] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [107] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [108] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [109] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [110] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [111] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [112] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [113] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [114] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [115] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [116] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [117] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [118] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [119] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [120] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [121] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [122] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [123] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [124] => stdClass Object
+                                (
+                                    [token] => 20d4bf2e4f9f526b4081ff6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [125] => stdClass Object
+                                (
+                                    [token] => 20d600dceacb234fc5cf2f6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [126] => stdClass Object
+                                (
+                                    [token] => 20d6405245b5a13a32c7fa6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 1
+                                )
+
+                            [127] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [128] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [129] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [130] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [131] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [132] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [133] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [134] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [135] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [136] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [137] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [138] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [139] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [140] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [141] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [142] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [143] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [144] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [145] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [146] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [147] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [148] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [149] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [150] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [151] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [152] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [153] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [154] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [155] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [156] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [157] => stdClass Object
+                                (
+                                    [token] => 20d4bf2e4f9f526b4081ff6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [158] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [159] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [160] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [161] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [162] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [163] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [164] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [165] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [166] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [167] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [168] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [169] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [170] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [171] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [172] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [173] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [174] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [175] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [176] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [177] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [178] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [179] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [180] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [181] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [182] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [183] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [184] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [185] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [186] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [187] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [188] => stdClass Object
+                                (
+                                    [token] => 20d4bf2e4f9f526b4081ff6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [189] => stdClass Object
+                                (
+                                    [token] => 20d600dceacb234fc5cf2f6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [190] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [191] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [192] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [193] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [194] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [195] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [196] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [197] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [198] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [199] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [200] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [201] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [202] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [203] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [204] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [205] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [206] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [207] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [208] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [209] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [210] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [211] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [212] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [213] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [214] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [215] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [216] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [217] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [218] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [219] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [220] => stdClass Object
+                                (
+                                    [token] => 20d4bf2e4f9f526b4081ff6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [221] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [222] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [223] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [224] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [225] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [226] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [227] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [228] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [229] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [230] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [231] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [232] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [233] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [234] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [235] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [236] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [237] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [238] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [239] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [240] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [241] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [242] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [243] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [244] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [245] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [246] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [247] => stdClass Object
+                                (
+                                    [token] => 20d4833f1fac866fc6310e8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [248] => stdClass Object
+                                (
+                                    [token] => 20d497dfbbbe24db45b59b6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [249] => stdClass Object
+                                (
+                                    [token] => 20d4af99075c123dd277d06
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [250] => stdClass Object
+                                (
+                                    [token] => 20d4b825b1f3b403b55a106
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [251] => stdClass Object
+                                (
+                                    [token] => 20d4bf2e4f9f526b4081ff6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [252] => stdClass Object
+                                (
+                                    [token] => 20d600dceacb234fc5cf2f6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [253] => stdClass Object
+                                (
+                                    [token] => 20d6405245b5a13a32c7fa6
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 
+                                )
+
+                            [254] => stdClass Object
+                                (
+                                    [token] => 20d668006b7392021316ea8
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 16/02/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [4] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 18d7b5582c05179f75e17c3
+                    [name] => Julian
+                    [created] => 11/11/2021
+                    [doc_type] => CC
+                    [doc_number] => 1018477801
+                    [email] => jddrgato@gmail.com
+                    [phone] => 3203712824
+                    [address] => Calle 63 C # 22-30
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 1e60272791ea956671c5217
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/01/2022
+                                    [default] => 1
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [token] => 1e60272791ea956671c5217
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/01/2022
+                                    [default] => 
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [token] => 1e60272791ea956671c5217
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/01/2022
+                                    [default] => 
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [token] => 1e60272791ea956671c5217
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/01/2022
+                                    [default] => 
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [token] => 1e6059547299d56a91db806
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 18/01/2022
+                                    [default] => 1
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [token] => 1e6059547299d56a91db806
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 18/01/2022
+                                    [default] => 
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [token] => 1e60752c8c6be5a06460a26
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 18/01/2022
+                                    [default] => 1
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [token] => 1e60272791ea956671c5217
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/01/2022
+                                    [default] => 
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [token] => 1e60272791ea956671c5217
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/01/2022
+                                    [default] => 
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [token] => 1e60272791ea956671c5217
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/01/2022
+                                    [default] => 
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [token] => 1e60272791ea956671c5217
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/01/2022
+                                    [default] => 
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [token] => 1e6059547299d56a91db806
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 18/01/2022
+                                    [default] => 
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [token] => 1e6059547299d56a91db806
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 18/01/2022
+                                    [default] => 
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [token] => 1e60752c8c6be5a06460a26
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 18/01/2022
+                                    [default] => 
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [token] => 218f0e6dff55e5bde0224a6
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 25/02/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [5] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 18d7e580102a50c325a8aeb
+                    [name] => Nestor Goyes
+                    [created] => 11/11/2021
+                    [doc_type] => CC
+                    [doc_number] => 1020751420
+                    [email] => nestorgoyes@outlook.com
+                    [phone] => 3165783893
+                    [address] => Calle 63 C # 22-30
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 19ffed3a551b90c91494668
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 1
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [token] => 19ffed3a551b90c91494668
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [token] => 1a004e21087c15b211dea89
+                                    [franchise] => american express
+                                    [mask] => 377813******3360
+                                    [created] => 25/11/2021
+                                    [default] => 1
+                                )
+
+                            [3] => stdClass Object
+                                (
+                                    [token] => 19ffed3a551b90c91494668
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [4] => stdClass Object
+                                (
+                                    [token] => 19ffed3a551b90c91494668
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [5] => stdClass Object
+                                (
+                                    [token] => 1a004e21087c15b211dea89
+                                    [franchise] => american express
+                                    [mask] => 377813******3360
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [6] => stdClass Object
+                                (
+                                    [token] => 1a018d560aff82e26464c4a
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 1
+                                )
+
+                            [7] => stdClass Object
+                                (
+                                    [token] => 19ffed3a551b90c91494668
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [8] => stdClass Object
+                                (
+                                    [token] => 19ffed3a551b90c91494668
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [9] => stdClass Object
+                                (
+                                    [token] => 1a004e21087c15b211dea89
+                                    [franchise] => american express
+                                    [mask] => 377813******3360
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [10] => stdClass Object
+                                (
+                                    [token] => 19ffed3a551b90c91494668
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [11] => stdClass Object
+                                (
+                                    [token] => 19ffed3a551b90c91494668
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [12] => stdClass Object
+                                (
+                                    [token] => 1a004e21087c15b211dea89
+                                    [franchise] => american express
+                                    [mask] => 377813******3360
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [13] => stdClass Object
+                                (
+                                    [token] => 1a018d560aff82e26464c4a
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 
+                                )
+
+                            [14] => stdClass Object
+                                (
+                                    [token] => 1a019e2a4b6b002ec7dfbe7
+                                    [franchise] => visa
+                                    [mask] => 409984******3176
+                                    [created] => 25/11/2021
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [6] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 1bf404769bcdc7cee58ccf2
+                    [name] => Christian
+                    [created] => 12/19/2021
+                    [doc_type] => CC
+                    [doc_number] => 79786409
+                    [email] => christian.kling.a@gmail.com
+                    [phone] => 3165261863
+                    [address] => Calle 76 11-41 int 502
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 1bf3fca9ebf6a0a553b0376
+                                    [franchise] => mastercard
+                                    [mask] => 555825******7483
+                                    [created] => 19/12/2021
+                                    [default] => 1
+                                )
+
+                            [1] => stdClass Object
+                                (
+                                    [token] => 1bf3fca9ebf6a0a553b0376
+                                    [franchise] => mastercard
+                                    [mask] => 555825******7483
+                                    [created] => 19/12/2021
+                                    [default] => 
+                                )
+
+                            [2] => stdClass Object
+                                (
+                                    [token] => 1f1b1362dec8e4c1c168246
+                                    [franchise] => visa
+                                    [mask] => 422274******5740
+                                    [created] => 26/01/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [7] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 1e3046dc3427d238f781082
+                    [name] => Andres Fernando
+                    [created] => 01/15/2022
+                    [doc_type] => CC
+                    [doc_number] => 80189729
+                    [email] => anfecor@hotmail.com
+                    [phone] => 3166958950
+                    [address] => Carrera 66 # 76 - 46, Metropolis U 6 Apto 414
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 1e304126913a6199b0a4a56
+                                    [franchise] => visa
+                                    [mask] => 422274******5495
+                                    [created] => 15/01/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [8] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 1fac69f7b5de2429316aa23
+                    [name] => Vanessa
+                    [created] => 02/02/2022
+                    [doc_type] => CC
+                    [doc_number] => 45505055
+                    [email] => vgilchrist@gmail.com
+                    [phone] => 3118089078
+                    [address] => Calle 90 no 7A-57, 302
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 1fac660bfb4b41fff6737c6
+                                    [franchise] => visa
+                                    [mask] => 459356******3932
+                                    [created] => 02/02/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [9] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 205229a471bd8229b04bb63
+                    [name] => Camila
+                    [created] => 02/10/2022
+                    [doc_type] => CC
+                    [doc_number] => 41419263
+                    [email] => camisi@yahoo.com
+                    [phone] => 3152522803
+                    [address] => Carrera 9 #93 B - 49 piso 5
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 2052132b5a8b161b2218747
+                                    [franchise] => mastercard
+                                    [mask] => 530691******8906
+                                    [created] => 10/02/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+    [10] => stdClass Object
+        (
+            [status] => 1
+            [success] => 1
+            [type] => Find customer
+            [data] => stdClass Object
+                (
+                    [id_customer] => 232831a98856126cd3e44c2
+                    [name] => Julian
+                    [created] => 03/16/2022
+                    [doc_type] => CC
+                    [doc_number] => 1018477801
+                    [email] => juliandelgadoacevedo@gmail.com
+                    [phone] => 3203712824
+                    [address] => Calle 63 C # 22-30
+                    [cards] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [token] => 23282f843f4860188251b06
+                                    [franchise] => mastercard
+                                    [mask] => 530371******6294
+                                    [created] => 17/03/2022
+                                    [default] => 1
+                                )
+
+                        )
+
+                )
+
+            [object] => customer
+        )
+
+)

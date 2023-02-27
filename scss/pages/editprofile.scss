@@ -1,0 +1,281 @@
+.editBody main {
+  @media only screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
+}
+.petProfile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+  span.age {
+    flex: 1;
+    display: block;
+    margin-bottom: 30px;
+    max-width: 243px;
+    label {
+      color: #336065;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: bold;
+      letter-spacing: -0.02em;
+      display: block;
+      line-height: 14px;
+    }
+    input {
+      background: #e5e4eb;
+      flex: 1;
+      border-radius: 10px !important;
+      height: 50px;
+      font-size: 20px;
+      text-transform: uppercase;
+      max-width: 243px;
+      color: #336065;
+      font-family: var(--font-secondary);
+      padding: 25px;
+    }
+  }
+  &__left {
+    .flex {
+      gap: 10px;
+      .custom-select {
+        margin-bottom: 0;
+      }
+      span {
+        margin-bottom: 0;
+      }
+      margin-bottom: 15px;
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+      .customRadio {
+        label {
+          background: #e5e4eb;
+          border-radius: 10px;
+          height: 85px;
+          width: 85px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+          cursor: pointer;
+          svg {
+            width: 50px;
+          }
+          &:hover {
+            background: #fb883f;
+          }
+        }
+        input:checked + label,
+        input:hover + label {
+          background: #fb883f;
+        }
+      }
+    }
+  }
+  &__photo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    &-pet {
+      width: 90px;
+      height: 90px;
+      background: #c4c4c4;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid #fb883f;
+    }
+
+    &-name {
+      width: 100%;
+      display: block;
+      label {
+        color: #336065;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: -0.02em;
+        display: block;
+        line-height: 14px;
+      }
+      input {
+        background: #e5e4eb;
+        width: 100%;
+        border-radius: 10px !important;
+        height: 50px;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #336065;
+        font-family: var(--font-secondary);
+        padding: 25px;
+      }
+    }
+    &-input {
+      position: relative;
+      display: block;
+      width: fit-content;
+    }
+    input[type="file"] {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      cursor: pointer;
+      z-index: 5;
+      opacity: 0;
+    }
+    .icon {
+      position: absolute;
+      bottom: 10px;
+      right: 0;
+      width: 25px;
+    }
+  }
+  &__right {
+    .esterilizado {
+      margin: 15px 0;
+      small {
+        color: #336065;
+        font-family: var(--font-primary);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: -0.02em;
+        line-height: 30px;
+        margin-right: 10px;
+      }
+    }
+    .areas {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      width: 100%;
+      @media only screen and (max-width: 768px) {
+        align-items: initial;
+      }
+      .left,
+      .right {
+        flex: 1;
+        textarea {
+          width: 100%;
+        }
+      }
+    }
+    .delete {
+      color: #f77053;
+      @media only screen and (max-width: 768px) {
+        grid-row: 2;
+      }
+    }
+  }
+  .especie {
+    margin: 30px 0;
+    .customRadio {
+      transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      flex-direction: row;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .custom-select,
+    input,
+    .autocomplete,
+    span.age,
+    span.age input {
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+  }
+}
+.vacunas {
+  a {
+    text-decoration: underline;
+    margin-bottom: 30px;
+    display: block;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  h4 {
+    color: #336065;
+    font-family: var(--font-secondary);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    button {
+      img {
+        width: 15px;
+      }
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.save {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 320px;
+  margin: 0 0 0 auto;
+  margin-bottom: 100px;
+  @media only screen and (max-width: 768px) {
+    background: #fff;
+    bottom: 0;
+    box-shadow: 0 0 21px 0 rgb(0 0 0 / 70%);
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    left: 0;
+    margin: 0;
+    max-width: 100%;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  a {
+    text-decoration: underline;
+    &:hover {
+      opacity: 0.5;
+    }
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+      grid-row: 2;
+      grid-column: 1;
+    }
+  }
+  button {
+    background: #309da3;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 20px;
+    grid-column: span 2;
+    &:hover {
+      background: darken($color: #309da3, $amount: 10);
+    }
+  }
+}
