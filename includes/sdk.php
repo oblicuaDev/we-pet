@@ -599,4 +599,51 @@ class wepet {
         $user = $this->get_user($user_id);
         return $user;
     }
+    function getAgeGroup($specie,$months)
+    {
+        $group = 0;
+        if($specie == "Gato" || $specie == "gato")
+        {
+            if($months<7)
+            {
+                $group = 1;//cachorro
+            }
+            if($months>6 && $months<25)
+            {
+                $group = 2;//joven
+            }
+            if($months>24 && $months<72)
+            {
+                $group = 3;//adulto
+            }
+            if($months>72 && $months<121)
+            {
+                $group = 4;//maduro
+            }
+            if($months>120 && $months<169)
+            {
+                $group = 5; //senior
+            }
+            if($months>169)
+            {
+                $group = 6; //anciano
+            }
+        }else
+        {
+            if($months<13)
+            {
+                $group = 1;//cachorro
+            }
+            if($months>12 && $months<85)
+            {
+                $group = 3;//adulto
+            }
+            if($months>84)
+            {
+                $group = 5; //senior
+            }
+            
+        }
+        return $group;
+    }
 }

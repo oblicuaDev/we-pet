@@ -23,7 +23,8 @@
     }else{
         $finalDate = $diff->y . " años.";
     }
-
+    $petmonths = $diff->m + $diff->y*12;
+    $agegroup = $wp->getAgeGroup($especie,$petmonths);
     $user = $wp->create_pet('{
         "name": "'.$name.'",
         "type": "'.$especie.'",
@@ -43,7 +44,8 @@
         "sub_end":"'.$end.'",
         "id_sub":"'.$id_sub.'",
         "plan_type":"'.$plan_type.'",
-        "services_rel": '.json_encode($services).'
+        "services_rel": '.json_encode($services).',
+        "age_groups":'.$agegroup.'
     }');
 
     $wp->campaignMonitorEmail($user_email,"¡Estas registrado!", "b0fe3bce-267b-47db-b120-5991a9d0379b", '{
