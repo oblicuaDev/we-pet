@@ -143,6 +143,7 @@ class wepet {
         }else{
             $endpoint = $this->domain . "/" . $url;
         }
+        //echo $endpoint;
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $endpoint);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -650,13 +651,18 @@ class wepet {
     {
         
     }
-    function sendReminders($date = date("Y-m-d"))
+    function sendReminders($date = "")
     {
-        $itemsToSend = $this->query("reminders/?_fecha=".$date);
+        if($date == ""){ $date = date("Y-m-d"); }
+        $qstr = "reminders/?_fecha=".$date;
+        //echo $this->query($qstr);
+        $itemsToSend = $this->query($qstr);
+        
         for($i=0;$i<count($itemsToSend);$i++)
         {
+            
             $to = $itemsToSend[$i]->wepetuser->email;
-            switch(strtolower($itemsToSend[$i]->wepetuser->type))
+            switch(strtolower($itemsToSend[$i]->type))
             {
                 case "vacuna":
                     $action = "vacunar";
@@ -669,13 +675,13 @@ class wepet {
                         break;
                 
             }
-            $petname = $to = $itemsToSend[$i]->pet->name;
+            $petname = $itemsToSend[$i]->pet->name;
             $link = "https://wepet.co/mi-cuenta";
             $message = $itemsToSend[$i]->message;
             $mergeTags = '{
                 "wpaction": "'.$action.'",
                 "petname": "'.$petname.'",
-                "type": "'.$itemsToSend[$i]->wepetuser->type.'",
+                "type": "'.$itemsToSend[$i]->type.'",
                 "wpmsg": "'.$message.'",
                 "link": "'.$link.'"
             }';
