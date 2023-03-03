@@ -646,4 +646,40 @@ class wepet {
         }
         return $group;
     }
+    function outdatedPets($days)
+    {
+        
+    }
+    function sendReminders($date = date("Y-m-d"))
+    {
+        $itemsToSend = $this->query("reminders/?_fecha=".$date);
+        for($i=0;$i<count($itemsToSend);$i++)
+        {
+            $to = $itemsToSend[$i]->wepetuser->email;
+            switch(strtolower($itemsToSend[$i]->wepetuser->type))
+            {
+                case "vacuna":
+                    $action = "vacunar";
+                    break;
+                case "bano":
+                    $action = "bañar";
+                        break;
+                case "desparasitacion":
+                    $action = "desaparasitar";
+                        break;
+                
+            }
+            $petname = $to = $itemsToSend[$i]->pet->name;
+            $link = "https://wepet.co/mi-cuenta";
+            $message = $itemsToSend[$i]->message;
+            $mergeTags = '{
+                "wpaction": "'.$action.'",
+                "petname": "'.$petname.'",
+                "type": "'.$itemsToSend[$i]->wepetuser->type.'",
+                "wpmsg": "'.$message.'",
+                "link": "'.$link.'"
+            }';
+            $this->campaignMonitorEmail($to,"Recordatorio", "dee46205-a182-4146-b16c-70bd7e16e275", $mergeTags);
+        }
+    }
 }
